@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="A brief description of your webpage">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+    <title>Simple Password Generator</title>
+</head>
+
+<body>
+
+    <div class="w-full h-[100vh] flex items-center  bg-gray-500 border-dashed border-red-50 flex-col">
+        <h3 class="font-semibold text-white mb-10 font-[roboto] text-3xl mt-20 selection:text-[yellow]">Random Password
+            Generator</h3>
+        <div class="w-[70%] h-[40%] border-2 border-red-50">
+            <div class="w-full h-10 flex items-center justify-center mt-10">
+                 <input type="text" id="password_showing_input" placeholder="Your Password" class="text-ellipsis w-[50%] h-10 font-bold text-[#0000005a] indent-4 rounded-l-md outline-none border-none text-xl transition-all">
+                 <button type="button" id="copyBtn" class="btn h-10 w-32 bg-blue-600 text-white rounded-r-md font-[roboto] tracking-wider ">Copy <i class="ri-clipboard-line"></i></button>
+            </div>
+            <div class="w-full min-h-20 mt-10 flex items-center  justify-center gap-10 text-white text-xl capitalize">
+                <div class="flex items-center justify-center  gap-2 text-white "><input type="range" min="1" max="20" value="6" name="" id="p_Range" class=" cursor-pointer bg-red-700 outline-none border-none "><div id="input-range-number" class="h-10 w-10 flex items-center justify-center"> 6 &nbsp;</div></div>
+                <div class="flex  items-center justify-center  gap-2 text-white "><input type="checkbox" name="" id="capitalize_Input" class="w-5 h-5 outline-none border-none ">capitalize</div>
+                <div class="flex  items-center justify-center  gap-2 text-white "><input type="checkbox" name="" id="number_Input" class="w-5 h-5 outline-none border-none ">Number</div>
+                <div class="flex  items-center justify-center  gap-2 text-white "><input type="checkbox" name="" id="special_Characters" class="w-5 h-5 outline-none border-none ">special characters</div>
+            </div>
+            <div class="w-full flex items-center justify-center mt-7 text-white">
+                <button typce="button" id="generate_btn" class="bg-green-500 w-32 h-10 capitalize tracking-widest rounded-[5px]"> generate</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
