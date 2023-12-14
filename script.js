@@ -3,13 +3,15 @@ const password_showing_input = document.getElementById("password_showing_input")
 let copyBtn = document.getElementById("copyBtn");
 copyBtn.addEventListener("click", function () {
      copyBtn.textContent = "Copyed";
-     password_showing_input.style.color = "rgb(174, 174, 101)";
+     password_showing_input.style.color = "blue";
      password_showing_input.setSelectionRange(0, 99999); // For mobile devices
 
      // Copy the text inside the text field
      navigator.clipboard.writeText(password_showing_input.value);
 
 });
+
+
 
 // Random pasword logic 
 
