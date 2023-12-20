@@ -35,7 +35,7 @@ Clone the repository to your local machine:
 
 ## bash
 Copy code
-git clone https://github.com/your-username/simple-password-generator.git
+git clone [https://github.com/your-username/simple-password-generator](https://github.com/NUR-9922/random-pas-gen).git
 Open the project directory:
 
 ## bash
