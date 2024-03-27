@@ -66,6 +66,6 @@ This project is licensed under the [Your License Name] License - see the LICENSE
 
 ## Acknowledgements
 Remix Icon - Icons used in the project.
-For any inquiries or suggestions, please contact mailnur.9922@example.com.
+
 
 Thank you for using and contributing to the Simple Password Generator!
